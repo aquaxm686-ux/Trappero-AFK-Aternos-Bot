@@ -1,7 +1,7 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "WilliBot00",
+    "username": "WilliAFK",
     "password": "",
     "type": "offline"
   },
@@ -24,33 +24,38 @@
     },
     "anti-afk": {
       "enabled": true,
-      "sneak": true
+      "sneak": false
     },
     "chat-messages": {
-      "enabled": false,
-      "repeat": false,
-      "repeat-delay": 120,
-      "messages": []
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 180,
+      "messages": [
+        "hola",
+        "afk",
+        "viendo cosas",
+        "minando luego"
+      ]
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 3000,
-    "max-reconnect-delay": 30000
+    "auto-reconnect-delay": 5000,
+    "max-reconnect-delay": 60000
   },
   "movement": {
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 2,
-      "speed": 2000
+      "radius": 3,
+      "speed": 3000
     },
     "look-around": {
       "enabled": true,
-      "interval": 3000
+      "interval": 2000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 5000
+      "interval": 8000
     }
   },
   "modules": {
