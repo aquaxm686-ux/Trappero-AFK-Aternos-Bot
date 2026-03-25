@@ -8,7 +8,7 @@
   "server": {
     "ip": "willilandia2.aternos.me",
     "port": 25883,
-    "version": "1.20.1",
+    "version": "1.21.11",
     "try-creative": false
   },
   "position": {
@@ -24,7 +24,7 @@
     },
     "anti-afk": {
       "enabled": true,
-      "sneak": false
+      "sneak": true
     },
     "chat-messages": {
       "enabled": false,
@@ -34,27 +34,27 @@
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 5000,
-    "max-reconnect-delay": 120000
+    "auto-reconnect-delay": 3000,
+    "max-reconnect-delay": 30000
   },
   "movement": {
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 3,
-      "speed": 3000
+      "radius": 2,
+      "speed": 2000
     },
     "look-around": {
       "enabled": true,
-      "interval": 4000
+      "interval": 3000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 7000
+      "interval": 5000
     }
   },
   "modules": {
-    "avoidMobs": true,
+    "avoidMobs": false,
     "combat": false,
     "beds": false,
     "chat": false,
