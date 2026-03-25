@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "willilandia2.aternos.me",
-    "port": 25883,
+    "ip": "willilandia.aternos.me",
+    "port": 23737,
     "version": "1.21.11",
     "try-creative": false
   },
